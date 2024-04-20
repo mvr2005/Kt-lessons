@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">мое первое приложение</string>
-    <string name="hello">Hello, Michael!!!</string>
-    <string name="By">ПОКА</string>
+    <string name="hello">Helloooo!!!</string>
+    <string name="By">СЛАБО ЖМЕШЬ!!!!!</string>
     <string name="txBt">ЖМИ</string>
+    <string name="txBt2">ЖМИ СИЛЬНЕЕ</string>
 </resources>

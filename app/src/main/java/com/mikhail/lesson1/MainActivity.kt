@@ -3,6 +3,7 @@ package com.mikhail.lesson1
 import android.opengl.Visibility
 import android.os.Bundle
 import android.view.View
+import android.view.View.VISIBLE
 import android.widget.Button
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
@@ -14,6 +15,7 @@ class MainActivity : AppCompatActivity() {
 
    private lateinit var tx1 : TextView
    private lateinit var bt1 : Button
+   private lateinit var bt2 : Button
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -28,10 +30,33 @@ class MainActivity : AppCompatActivity() {
 
         tx1 = findViewById(R.id.tx_1)
         bt1 = findViewById(R.id.btColor)
+        bt2 = findViewById(R.id.bt2)
 
         bt1.setOnClickListener{
             tx1.text = getText(R.string.By)
             bt1.visibility = View.GONE
+            bt2.visibility = VISIBLE
         }
     }
+
+    override fun onStart() {
+        super.onStart()
+    }
+
+    override fun onResume() {
+        super.onResume()
+    }
+
+    override fun onPause() {
+        super.onPause()
+    }
+
+    override fun onStop() {
+        super.onStop()
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+    }
+
 }

@@ -29,4 +29,15 @@
         app:layout_constraintStart_toStartOf="@+id/tx_1"
         app:layout_constraintTop_toBottomOf="@+id/tx_1" />
 
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="@string/txBt2"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@+id/tx_1"
+        app:layout_constraintStart_toStartOf="@+id/tx_1"
+        app:layout_constraintTop_toBottomOf="@+id/tx_1" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
